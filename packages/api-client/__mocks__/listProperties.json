@@ -1,0 +1,94 @@
+{
+  "Page": 0,
+  "PageSize": 0,
+  "Results": [
+    {
+      "ItemType": 3,
+      "Foto": "https://cloud.funda.nl/valentina_media/162/200/223.jpg",
+      "Fotos": [
+        { "Link": "https://cloud.funda.nl/valentina_media/162/200/223_720x480.jpg", "Width": 720 },
+        { "Link": "https://cloud.funda.nl/valentina_media/162/200/223_1080x720.jpg", "Width": 1080 },
+        { "Link": "https://cloud.funda.nl/valentina_media/162/200/223_1440x960.jpg", "Width": 1440 },
+        { "Link": "https://cloud.funda.nl/valentina_media/162/200/223_2160x1440.jpg", "Width": 2160 }
+      ],
+      "Info": [
+        { "Line": [{ "Text": "Pieter acker 12", "Css": "font-weight: semibold;" }] },
+        {
+          "Line": [
+            { "Text": "Heemskerk, ", "Css": "font-weight: bold;" },
+            { "Text": "€ 875.000", "Css": "font-weight: bold;" },
+            { "Text": "k.k.", "Css": "margin: 0px 3px 0px 3px;font-weight: bold;" }
+          ]
+        }
+      ],
+      "Link": "https://mobile.funda.io/api/v2/Aanbod/Detail/Koop/6451013",
+      "Branche": 0,
+      "ResultListLabels": [
+        {
+          "Type": 4,
+          "List": [
+            {
+              "Line": [
+                {
+                  "Text": "Uitgelicht door Teer Makelaars Heemskerk B.V.",
+                  "Css": "color: #0071B3;font-weight: semibold;font-size: 0.75em;"
+                }
+              ]
+            }
+          ],
+          "BackgroundColor": "#E6F2F7"
+        }
+      ],
+      "GlobalId": 6451013,
+      "NvmVestigingNr": 0,
+      "SoortAanbod": 0
+    },
+    {
+      "ItemType": 1,
+      "Foto": "https://cloud.funda.nl/valentina_media/163/359/864_klein.jpg",
+      "Fotos": [
+        { "Link": "https://cloud.funda.nl/valentina_media/163/359/864_720x480.jpg", "Width": 720 },
+        { "Link": "https://cloud.funda.nl/valentina_media/163/359/864_1080x720.jpg", "Width": 1080 },
+        { "Link": "https://cloud.funda.nl/valentina_media/163/359/864_1440x960.jpg", "Width": 1440 },
+        { "Link": "https://cloud.funda.nl/valentina_media/163/359/864_2160x1440.jpg", "Width": 2160 }
+      ],
+      "Info": [
+        { "Line": [{ "Text": "Zuidwijck 5", "Css": "font-weight: bold;" }] },
+        { "Line": [{ "Text": "7608 KL  Almelo", "Css": "font-weight: semibold;" }], "Css": "margin: 2px 0px 0px 0px;" },
+        {
+          "Line": [{ "Text": "128 m² / 238 m² • 5 kamers", "Css": "font-weight: semibold;" }],
+          "Css": "margin: 2px 0px 0px 0px;"
+        },
+        {
+          "Line": [
+            { "Text": "€ 259.500", "Css": "font-weight: bold;" },
+            { "Text": "k.k.", "Css": "margin: 0px 3px 0px 3px;font-weight: bold;" }
+          ],
+          "Css": "margin: 8px 0px 0px 0px;"
+        }
+      ],
+      "Link": "https://mobile.funda.io/api/v2/Aanbod/Detail/Koop/6480341/GekliktAppResultaatlijst",
+      "Products": [1, 2, 3],
+      "Branche": 2,
+      "ResultListLabels": [
+        {
+          "Type": 1,
+          "List": [
+            {
+              "Line": [
+                {
+                  "Text": "Nieuw",
+                  "Css": "background-color: #F7A100;color: #FFFFFF;border-radius: 2px;padding: 3px 5px 3px 5px;margin: 0px 5px 0px 0px;font-weight: semibold;font-size: 0.75em;"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "GlobalId": 6480341,
+      "NvmVestigingNr": 63471,
+      "SoortAanbod": 10
+    }
+  ],
+  "TotalCount": 54457
+}
