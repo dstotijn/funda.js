@@ -6,12 +6,10 @@ import type { ListPropertiesResult } from "./typings/client";
 import getTokenMock from "../__mocks__/getToken.json";
 import listPropertiesMock from "../__mocks__/listProperties.json";
 
-vi.mock("node-fetch", async () => {
-  return {
-    ...(await vi.importActual<typeof fetch>("node-fetch")),
-    default: vi.fn(),
-  };
-});
+vi.mock("node-fetch", async () => ({
+  ...(await vi.importActual<typeof fetch>("node-fetch")),
+  default: vi.fn(),
+}));
 
 describe("Client", () => {
   afterEach(() => {
@@ -54,7 +52,6 @@ describe("Client", () => {
 
   describe("listProperties", () => {
     it("returns the mapped list of properties", async () => {
-      console.log(vi.mocked(fetch));
       vi.mocked(fetch)
         .mockResolvedValueOnce(new Response(JSON.stringify(getTokenMock)))
         .mockResolvedValueOnce(
@@ -91,6 +88,26 @@ describe("Client", () => {
         nextPage: 2,
         totalCount: 54457,
       });
+    });
+
+    it("uses the search query in the URL", async () => {
+      vi.mocked(fetch)
+        .mockResolvedValueOnce(new Response(JSON.stringify(getTokenMock)))
+        .mockResolvedValueOnce(
+          new Response(JSON.stringify(listPropertiesMock), {
+            headers: {
+              Link: `<https://mobile.funda.io/api/v2/Aanbod/ResultList/koop/amsterdam%2F%2B5km%2F?page=2&pageSize=25&compact=False>; rel="next"`,
+            },
+          })
+        );
+      const client = new Client({
+        clientSecret: "my-secret",
+      });
+      await client.listProperties();
+      expect(fetch).toHaveBeenCalledWith(
+        "https://mobile.funda.io/api/v2/Aanbod/ResultList/koop/heel-nederland/?page=1&pageSize=25",
+        expect.anything()
+      );
     });
   });
 });

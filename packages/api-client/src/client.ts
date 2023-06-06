@@ -99,25 +99,38 @@ export default class Client {
     const nonPromotedResults = result.Results.filter((result) => result.ItemType === 1);
 
     return {
-      items: nonPromotedResults.map((result) => ({
-        id: result.GlobalId,
-        streetAddress: result.Info[0].Line[0].Text,
-        postalCode: result.Info[1].Line[0].Text.substring(0, 4) + result.Info[1].Line[0].Text.substring(5, 7),
-        locality: result.Info[1].Line[0].Text.substring(9),
-        listingPrice: Number(result.Info[3].Line[0].Text.replace(/[.€\s]/g, "")),
-        livingArea: Number(/^(\d+)/.exec(result.Info[2].Line[0].Text)![1]),
-        plotArea: Number(/\/ (\d+)/.exec(result.Info[2].Line[0].Text)![1]),
-        roomCount: Number(/• (\d+) kamer/.exec(result.Info[2].Line[0].Text)![1]),
-        images: {
-          thumbnail: new URL(result.Foto),
-          720: new URL(result.Fotos.find((image) => image.Width === 720)!.Link),
-          1080: new URL(result.Fotos.find((image) => image.Width === 1080)!.Link),
-          1440: new URL(result.Fotos.find((image) => image.Width === 1440)!.Link),
-          2160: new URL(result.Fotos.find((image) => image.Width === 2160)!.Link),
-        },
-      })),
+      items: nonPromotedResults.map((result) => {
+        try {
+          return {
+            id: result.GlobalId,
+            streetAddress: result.Info[0].Line[0].Text,
+            postalCode: result.Info[1].Line[0].Text.substring(0, 4) + result.Info[1].Line[0].Text.substring(5, 7),
+            locality: result.Info[1].Line[0].Text.substring(9),
+            listingPrice: Number(result.Info[3]?.Line[0].Text.replace(/[.€\s]/g, "")) || 0,
+            livingArea: Number(/^(\d+)/.exec(result.Info[2].Line[0].Text)?.[1]) || 0,
+            plotArea: Number(/\/ (\d+)/.exec(result.Info[2].Line[0].Text)?.[1]) || 0,
+            roomCount: Number(/• (\d+) kamer/.exec(result.Info[2].Line[0].Text)?.[1]) || 0,
+            images: result.Foto
+              ? {
+                  thumbnail: new URL(result.Foto),
+                  720: Client.newOptionalURL(result.Fotos.find((image) => image.Width === 720)?.Link),
+                  1080: Client.newOptionalURL(result.Fotos.find((image) => image.Width === 1080)?.Link),
+                  1440: Client.newOptionalURL(result.Fotos.find((image) => image.Width === 1440)?.Link),
+                  2160: Client.newOptionalURL(result.Fotos.find((image) => image.Width === 2160)?.Link),
+                }
+              : undefined,
+          };
+        } catch (err) {
+          console.log(JSON.stringify(result));
+          throw err;
+        }
+      }),
       nextPage,
       totalCount: result.TotalCount,
     };
+  }
+
+  private static newOptionalURL(input?: string): URL | undefined {
+    return input ? new URL(input) : undefined;
   }
 }

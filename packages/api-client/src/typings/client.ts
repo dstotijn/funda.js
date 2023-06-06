@@ -7,12 +7,12 @@ export interface Property {
   livingArea: number;
   plotArea: number;
   roomCount: number;
-  images: {
+  images?: {
     thumbnail: URL;
-    720: URL;
-    1080: URL;
-    1440: URL;
-    2160: URL;
+    720?: URL;
+    1080?: URL;
+    1440?: URL;
+    2160?: URL;
   };
 }
 
