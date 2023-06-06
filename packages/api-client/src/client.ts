@@ -1,6 +1,6 @@
 import fetch from "node-fetch";
 
-import type { ListPropertiesOptions, ListPropertiesResult } from "./typings/client.js";
+import type { ListPropertiesOptions, ListPropertiesResult, ListingType } from "./typings/client.js";
 import type { ApiListPropertiesResult, ApiTokenResult } from "./typings/api.js";
 
 const mobileBaseUrl = "https://mobile.funda.io/api/v2";
@@ -69,7 +69,9 @@ export default class Client {
       page: `${opts?.page ?? 1}`,
       pageSize: `${opts?.pageSize ?? 25}`,
     });
-    const url = `${this.mobileBaseUrl}/Aanbod/ResultList/koop/heel-nederland/?${urlParams.toString()}`;
+    const listingType = Client.listingTypeToPath(opts?.listingType || "sale");
+    const filter = opts?.filter || "heel-nederland";
+    const url = `${this.mobileBaseUrl}/Aanbod/ResultList/${listingType}/${filter}/?${urlParams.toString()}`;
     const resp = await this.fetch(url, {
       headers: {
         ["User-Agent"]: this.userAgent,
@@ -132,5 +134,14 @@ export default class Client {
 
   private static newOptionalURL(input?: string): URL | undefined {
     return input ? new URL(input) : undefined;
+  }
+
+  private static listingTypeToPath(type: ListingType): string {
+    switch (type) {
+      case "sale":
+        return "koop";
+      case "rental":
+        return "huur";
+    }
   }
 }

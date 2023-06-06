@@ -19,7 +19,11 @@ export interface Property {
 export interface ListPropertiesOptions {
   page?: number;
   pageSize?: number;
+  listingType?: ListingType;
+  filter?: string;
 }
+
+export type ListingType = "sale" | "rental";
 
 export interface ListPropertiesResult {
   items: Property[];

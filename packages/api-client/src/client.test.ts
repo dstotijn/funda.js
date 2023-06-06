@@ -96,16 +96,19 @@ describe("Client", () => {
         .mockResolvedValueOnce(
           new Response(JSON.stringify(listPropertiesMock), {
             headers: {
-              Link: `<https://mobile.funda.io/api/v2/Aanbod/ResultList/koop/amsterdam%2F%2B5km%2F?page=2&pageSize=25&compact=False>; rel="next"`,
+              Link: `<https://mobile.funda.io/api/v2/Aanbod/ResultList/koop/foobar%2F%2B5km%2F?page=2&pageSize=25&compact=False>; rel="next"`,
             },
           })
         );
       const client = new Client({
         clientSecret: "my-secret",
       });
-      await client.listProperties();
+      await client.listProperties({
+        listingType: "sale",
+        filter: "foobar",
+      });
       expect(fetch).toHaveBeenCalledWith(
-        "https://mobile.funda.io/api/v2/Aanbod/ResultList/koop/heel-nederland/?page=1&pageSize=25",
+        "https://mobile.funda.io/api/v2/Aanbod/ResultList/koop/foobar/?page=1&pageSize=25",
         expect.anything()
       );
     });

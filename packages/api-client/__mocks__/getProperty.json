@@ -1,0 +1,930 @@
+[
+  {
+    "Section": 22,
+    "ContactOptions": [
+      {
+        "RichTextLine": {
+          "Line": [
+            {
+              "Text": " [Meld een fout over dit huis](https://www.funda.nl/koop/amsterdam/huis-42137274-joop-eijlstraat-14/meld-een-fout/?source=nativeapp)",
+              "Css": "color: #0071B3;"
+            }
+          ]
+        },
+        "GoogleAnalyticsEventAction": "click-meld-een-fout"
+      }
+    ],
+    "Order": 23
+  },
+  {
+    "Section": 12,
+    "Order": 15,
+    "Collapsed": true,
+    "List": [
+      {
+        "Title": "Overdracht",
+        "CategoryBanner": {
+          "Link": "https://mobile.funda.io/api/v2/Ad/Koop/globalId/6782811/lok/5000",
+          "TemplateId": "10161169",
+          "Site": "funda",
+          "SoortAanbod": "koop",
+          "NativeAdTemplates": [
+            {
+              "Id": "10161169",
+              "Type": 3
+            }
+          ],
+          "AdUnit": "/7276/funda.koop/overzicht/android/categoriebanner-overdracht_koop_overzicht_android_r0"
+        },
+        "List": [
+          {
+            "Label": "Vraagprijs",
+            "Value": "€ 550.000 kosten koper",
+            "TextLinkBanner": {
+              "Link": "https://mobile.funda.io/api/v2/Ad/Koop/globalId/6782811/lok/5001",
+              "TemplateId": "10161049",
+              "Site": "funda",
+              "SoortAanbod": "koop",
+              "NativeAdTemplates": [
+                {
+                  "Id": "10161049",
+                  "Type": 4
+                }
+              ],
+              "AdUnit": "/7276/funda.koop/overzicht/android/tekstlink-overdracht_koop_overzicht_android_r0"
+            }
+          },
+          {
+            "Label": "Vraagprijs per m²",
+            "Value": "€ 4.167"
+          },
+          {
+            "Label": "Aangeboden sinds",
+            "Value": "3 juni 2023"
+          },
+          {
+            "Label": "Status",
+            "Value": "Beschikbaar"
+          },
+          {
+            "Label": "Aanvaarding",
+            "Value": "In overleg"
+          }
+        ]
+      },
+      {
+        "Title": "Bouw",
+        "CategoryBanner": {
+          "Link": "https://mobile.funda.io/api/v2/Ad/Koop/globalId/6782811/lok/5010",
+          "TemplateId": "10161169",
+          "Site": "funda",
+          "SoortAanbod": "koop",
+          "NativeAdTemplates": [
+            {
+              "Id": "10161169",
+              "Type": 3
+            }
+          ],
+          "AdUnit": "/7276/funda.koop/overzicht/android/categoriebanner-bouw_koop_overzicht_android_r0"
+        },
+        "List": [
+          {
+            "Label": "Soort woonhuis",
+            "Value": "Eengezinswoning, tussenwoning"
+          },
+          {
+            "Label": "Soort bouw",
+            "Value": "Bestaande bouw"
+          },
+          {
+            "Label": "Bouwjaar",
+            "Value": "1958"
+          }
+        ]
+      },
+      {
+        "Title": "Oppervlakten en inhoud",
+        "List": [
+          {
+            "Title": "Gebruiksoppervlakten",
+            "List": [
+              {
+                "Label": "Wonen",
+                "Value": "132 m²"
+              },
+              {
+                "Label": "Gebouwgebonden buitenruimte",
+                "Value": "14 m²"
+              },
+              {
+                "Label": "Externe bergruimte",
+                "Value": "9 m²"
+              }
+            ]
+          },
+          {
+            "Label": "Perceel",
+            "Value": "111 m²"
+          },
+          {
+            "Label": "Inhoud",
+            "Value": "452 m³"
+          }
+        ]
+      },
+      {
+        "Title": "Indeling",
+        "CategoryBanner": {
+          "Link": "https://mobile.funda.io/api/v2/Ad/Koop/globalId/6782811/lok/5030",
+          "TemplateId": "10161169",
+          "Site": "funda",
+          "SoortAanbod": "koop",
+          "NativeAdTemplates": [
+            {
+              "Id": "10161169",
+              "Type": 3
+            }
+          ],
+          "AdUnit": "/7276/funda.koop/overzicht/android/categoriebanner-indeling_koop_overzicht_android_r0"
+        },
+        "List": [
+          {
+            "Label": "Aantal kamers",
+            "Value": "5 kamers (4 slaapkamers)"
+          },
+          {
+            "Label": "Aantal badkamers",
+            "Value": "2 badkamers"
+          },
+          {
+            "Label": "Badkamervoorzieningen",
+            "Value": "Ligbad, 2 douches en 2 toiletten"
+          },
+          {
+            "Label": "Aantal woonlagen",
+            "Value": "3 woonlagen"
+          },
+          {
+            "Label": "Voorzieningen",
+            "Value": "TV kabel"
+          }
+        ]
+      },
+      {
+        "Title": "Energie",
+        "CategoryBanner": {
+          "Link": "https://mobile.funda.io/api/v2/Ad/Koop/globalId/6782811/lok/5040",
+          "TemplateId": "10161169",
+          "Site": "funda",
+          "SoortAanbod": "koop",
+          "NativeAdTemplates": [
+            {
+              "Id": "10161169",
+              "Type": 3
+            }
+          ],
+          "AdUnit": "/7276/funda.koop/overzicht/android/categoriebanner-energie_koop_overzicht_android_r0"
+        },
+        "List": [
+          {
+            "Label": "Energielabel",
+            "EnergieLabel": {
+              "Line": [
+                {
+                  "Text": "D",
+                  "Css": "font-weight: semibold;padding: 0px 0px 0px 8px;color: #FFFFFF;"
+                }
+              ]
+            },
+            "Link": "https://www.funda.nl/meer-weten/energielabel",
+            "BackgroundColor": "#f8f51c"
+          },
+          {
+            "Label": "Isolatie",
+            "Value": "Dubbel glas"
+          },
+          {
+            "Label": "Verwarming",
+            "Value": "Cv-ketel en open haard"
+          },
+          {
+            "Label": "Warm water",
+            "Value": "Cv-ketel"
+          },
+          {
+            "Label": "Cv-ketel",
+            "Value": "Combiketel"
+          }
+        ]
+      },
+      {
+        "Title": "Kadastrale gegevens",
+        "List": [
+          {
+            "Title": "SLOTEN D 2512",
+            "List": [
+              {
+                "Label": "Oppervlakte",
+                "Value": "79 m²"
+              },
+              {
+                "Label": "Eigendomssituatie",
+                "Value": "Gemeentelijke erfpacht (einddatum erfpacht:  31-03-2028)"
+              },
+              {
+                "Label": "Lasten",
+                "Value": "<{euro}>364,79 per jaar"
+              }
+            ]
+          },
+          {
+            "Title": "SLOTEN D 9238",
+            "List": [
+              {
+                "Label": "Oppervlakte",
+                "Value": "32 m²"
+              },
+              {
+                "Label": "Eigendomssituatie",
+                "Value": "Gemeentelijke erfpacht (einddatum erfpacht:  31-03-2028)"
+              },
+              {
+                "Label": "Lasten",
+                "Value": "<{euro}>364,79 per jaar"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "Title": "Buitenruimte",
+        "CategoryBanner": {
+          "Link": "https://mobile.funda.io/api/v2/Ad/Koop/globalId/6782811/lok/5160",
+          "TemplateId": "10161169",
+          "Site": "funda",
+          "SoortAanbod": "koop",
+          "NativeAdTemplates": [
+            {
+              "Id": "10161169",
+              "Type": 3
+            }
+          ],
+          "AdUnit": "/7276/funda.koop/overzicht/android/categoriebanner-buitenruimte_koop_overzicht_android_r0"
+        },
+        "List": [
+          {
+            "Label": "Ligging",
+            "Value": "In woonwijk en vrij uitzicht"
+          },
+          {
+            "Label": "Tuin",
+            "Value": "Achtertuin en voortuin"
+          }
+        ]
+      },
+      {
+        "Title": "Bergruimte",
+        "List": [
+          {
+            "Label": "Schuur/berging",
+            "Value": "Vrijstaande houten berging"
+          }
+        ]
+      },
+      {
+        "Title": "Parkeergelegenheid",
+        "List": [
+          {
+            "Label": "Soort parkeergelegenheid",
+            "Value": "Openbaar parkeren"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "Section": 26,
+    "Order": 14,
+    "Site": "funda",
+    "SoortAanbod": "koop",
+    "Link": "https://mobile.funda.io/api/v2/Ad/Koop/globalId/6782811/lok/3001",
+    "NativeAdTemplates": [
+      {
+        "Id": "10157089",
+        "Type": 5
+      },
+      {
+        "Id": "10164289",
+        "Type": 6
+      },
+      {
+        "Id": "10171729",
+        "Type": 7
+      }
+    ],
+    "BannerAdSizes": [
+      {
+        "Width": 320,
+        "Height": 50
+      },
+      {
+        "Width": 320,
+        "Height": 100
+      },
+      {
+        "Width": 320,
+        "Height": 240
+      },
+      {
+        "Width": 300,
+        "Height": 250
+      },
+      {
+        "Width": 312,
+        "Height": 92
+      }
+    ],
+    "ContentUrl": "https://www.funda.nl/koop/amsterdam/huis-42137274-joop-eijlstraat-14/",
+    "AdUnit": "/7276/funda.koop/overzicht/android/sponsorblok1_koop_overzicht_android_r0"
+  },
+  {
+    "Section": 9,
+    "Order": 26,
+    "Subject": "Joop Eijlstraat 14, 1063 EM Amsterdam",
+    "Body": "Huis in Amsterdam gevonden via #funda ",
+    "URL": "https://www.funda.nl/koop/amsterdam/huis-42137274-joop-eijlstraat-14/"
+  },
+  {
+    "Section": 31,
+    "Order": 31,
+    "Buttons": [
+      {
+        "Type": 1,
+        "Action": "tel:(+31) 20 705 95 80",
+        "ResultAction": "https://mobile.funda.io/api/v2/Contact/Telefoon/globalid/6782811/makelaarid/10317",
+        "Text": "(+31) 20 705 95 80"
+      },
+      {
+        "Type": 2,
+        "Action": "https://mobile.funda.io/api/v2/ContactForm/Form/Koop/6782811?formType=Reageer",
+        "Text": "Stuur bericht"
+      }
+    ]
+  },
+  {
+    "Section": 30,
+    "Order": 22,
+    "NvmVestigingNr": 0,
+    "Title": "NVM verkoopmakelaar",
+    "PrimaryColor": "#3C7CB3",
+    "SecondaryColor": "#ECF1F7",
+    "Makelaars": [
+      {
+        "Name": "Makelaarskantoor Marjolein van der Wim",
+        "MakelaarId": 10317,
+        "Branche": 1,
+        "Buttons": [
+          {
+            "Type": 1,
+            "Action": "tel:(+31) 20 705 95 80",
+            "ResultAction": "https://mobile.funda.io/api/v2/Contact/Telefoon/globalid/6782811/makelaarid/10317",
+            "Text": "(+31) 20 705 95 80"
+          }
+        ]
+      }
+    ],
+    "Buttons": [
+      {
+        "Type": 2,
+        "Action": "https://mobile.funda.io/api/v2/ContactForm/Form/Koop/6782811?formType=Reageer",
+        "Text": "Reageer"
+      },
+      {
+        "Type": 3,
+        "Action": "https://mobile.funda.io/api/v2/ContactForm/Form/Koop/6782811?formType=Bezichtiging",
+        "Text": "Bezichtiging"
+      },
+      {
+        "Type": 4,
+        "Action": "https://cloud.funda.nl/valentina_media/175/839/985.pdf",
+        "Text": "Brochure"
+      }
+    ]
+  },
+  {
+    "Section": 33,
+    "Order": 3,
+    "Photos": [
+      {
+        "PhotoType": 1,
+        "Link": "https://cloud.funda.nl/valentina_media/175/839/945_360.jpg"
+      },
+      {
+        "PhotoType": 1,
+        "Link": "https://cloud.funda.nl/valentina_media/175/839/922_360.jpg"
+      },
+      {
+        "PhotoType": 1,
+        "Link": "https://cloud.funda.nl/valentina_media/175/839/925_360.jpg"
+      },
+      {
+        "PhotoType": 1,
+        "Link": "https://cloud.funda.nl/valentina_media/175/839/923_360.jpg"
+      },
+      {
+        "PhotoType": 1,
+        "Link": "https://cloud.funda.nl/valentina_media/175/839/944_360.jpg"
+      },
+      {
+        "PhotoType": 1,
+        "Link": "https://cloud.funda.nl/valentina_media/175/839/926_360.jpg"
+      },
+      {
+        "PhotoType": 1,
+        "Link": "https://cloud.funda.nl/valentina_media/175/839/928_360.jpg"
+      },
+      {
+        "PhotoType": 1,
+        "Link": "https://cloud.funda.nl/valentina_media/175/839/931_360.jpg"
+      },
+      {
+        "PhotoType": 1,
+        "Link": "https://cloud.funda.nl/valentina_media/175/839/927_360.jpg"
+      },
+      {
+        "PhotoType": 1,
+        "Link": "https://cloud.funda.nl/valentina_media/175/839/924_360.jpg"
+      },
+      {
+        "PhotoType": 1,
+        "Link": "https://cloud.funda.nl/valentina_media/175/839/935_360.jpg"
+      },
+      {
+        "PhotoType": 1,
+        "Link": "https://cloud.funda.nl/valentina_media/175/839/930_360.jpg"
+      },
+      {
+        "PhotoType": 1,
+        "Link": "https://cloud.funda.nl/valentina_media/175/839/929_360.jpg"
+      },
+      {
+        "PhotoType": 1,
+        "Link": "https://cloud.funda.nl/valentina_media/175/839/943_360.jpg"
+      },
+      {
+        "PhotoType": 1,
+        "Link": "https://cloud.funda.nl/valentina_media/175/839/932_360.jpg"
+      },
+      {
+        "PhotoType": 1,
+        "Link": "https://cloud.funda.nl/valentina_media/175/839/934_360.jpg"
+      },
+      {
+        "PhotoType": 1,
+        "Link": "https://cloud.funda.nl/valentina_media/175/839/933_360.jpg"
+      },
+      {
+        "PhotoType": 1,
+        "Link": "https://cloud.funda.nl/valentina_media/175/839/936_360.jpg"
+      },
+      {
+        "PhotoType": 1,
+        "Link": "https://cloud.funda.nl/valentina_media/175/839/937_360.jpg"
+      },
+      {
+        "PhotoType": 1,
+        "Link": "https://cloud.funda.nl/valentina_media/175/839/938_360.jpg"
+      },
+      {
+        "PhotoType": 1,
+        "Link": "https://cloud.funda.nl/valentina_media/175/839/939_360.jpg"
+      },
+      {
+        "PhotoType": 1,
+        "Link": "https://cloud.funda.nl/valentina_media/175/839/941_360.jpg"
+      },
+      {
+        "PhotoType": 1,
+        "Link": "https://cloud.funda.nl/valentina_media/175/839/940_360.jpg"
+      },
+      {
+        "PhotoType": 1,
+        "Link": "https://cloud.funda.nl/valentina_media/175/839/942_360.jpg"
+      },
+      {
+        "PhotoType": 1,
+        "Link": "https://cloud.funda.nl/valentina_media/175/839/948_360.jpg"
+      },
+      {
+        "PhotoType": 1,
+        "Link": "https://cloud.funda.nl/valentina_media/175/839/947_360.jpg"
+      },
+      {
+        "PhotoType": 1,
+        "Link": "https://cloud.funda.nl/valentina_media/175/839/951_360.jpg"
+      },
+      {
+        "PhotoType": 1,
+        "Link": "https://cloud.funda.nl/valentina_media/175/839/950_360.jpg"
+      },
+      {
+        "PhotoType": 1,
+        "Link": "https://cloud.funda.nl/valentina_media/175/839/949_360.jpg"
+      },
+      {
+        "PhotoType": 1,
+        "Link": "https://cloud.funda.nl/valentina_media/175/839/952_360.jpg"
+      },
+      {
+        "PhotoType": 1,
+        "Link": "https://cloud.funda.nl/valentina_media/175/839/953_360.jpg"
+      },
+      {
+        "PhotoType": 1,
+        "Link": "https://cloud.funda.nl/valentina_media/175/839/954_360.jpg"
+      },
+      {
+        "PhotoType": 1,
+        "Link": "https://cloud.funda.nl/valentina_media/175/839/955_360.jpg"
+      },
+      {
+        "PhotoType": 1,
+        "Link": "https://cloud.funda.nl/valentina_media/175/839/956_360.jpg"
+      },
+      {
+        "PhotoType": 1,
+        "Link": "https://cloud.funda.nl/valentina_media/175/839/958_360.jpg"
+      },
+      {
+        "PhotoType": 1,
+        "Link": "https://cloud.funda.nl/valentina_media/175/839/957_360.jpg"
+      },
+      {
+        "PhotoType": 1,
+        "Link": "https://cloud.funda.nl/valentina_media/175/839/959_360.jpg"
+      },
+      {
+        "PhotoType": 1,
+        "Link": "https://cloud.funda.nl/valentina_media/175/839/961_360.jpg"
+      },
+      {
+        "PhotoType": 1,
+        "Link": "https://cloud.funda.nl/valentina_media/175/839/960_360.jpg"
+      }
+    ]
+  },
+  {
+    "Section": 34,
+    "Order": 1,
+    "Photos": [
+      {
+        "PhotoType": 1,
+        "Link": "https://cloud.funda.nl/valentina_media/175/839/945_360.jpg"
+      },
+      {
+        "PhotoType": 1,
+        "Link": "https://cloud.funda.nl/valentina_media/175/839/922_360.jpg"
+      },
+      {
+        "PhotoType": 1,
+        "Link": "https://cloud.funda.nl/valentina_media/175/839/925_360.jpg"
+      },
+      {
+        "PhotoType": 1,
+        "Link": "https://cloud.funda.nl/valentina_media/175/839/923_360.jpg"
+      },
+      {
+        "PhotoType": 1,
+        "Link": "https://cloud.funda.nl/valentina_media/175/839/944_360.jpg"
+      },
+      {
+        "PhotoType": 1,
+        "Link": "https://cloud.funda.nl/valentina_media/175/839/926_360.jpg"
+      },
+      {
+        "PhotoType": 1,
+        "Link": "https://cloud.funda.nl/valentina_media/175/839/928_360.jpg"
+      },
+      {
+        "PhotoType": 1,
+        "Link": "https://cloud.funda.nl/valentina_media/175/839/931_360.jpg"
+      },
+      {
+        "PhotoType": 1,
+        "Link": "https://cloud.funda.nl/valentina_media/175/839/927_360.jpg"
+      },
+      {
+        "PhotoType": 1,
+        "Link": "https://cloud.funda.nl/valentina_media/175/839/924_360.jpg"
+      },
+      {
+        "PhotoType": 1,
+        "Link": "https://cloud.funda.nl/valentina_media/175/839/935_360.jpg"
+      },
+      {
+        "PhotoType": 1,
+        "Link": "https://cloud.funda.nl/valentina_media/175/839/930_360.jpg"
+      },
+      {
+        "PhotoType": 1,
+        "Link": "https://cloud.funda.nl/valentina_media/175/839/929_360.jpg"
+      },
+      {
+        "PhotoType": 1,
+        "Link": "https://cloud.funda.nl/valentina_media/175/839/943_360.jpg"
+      },
+      {
+        "PhotoType": 1,
+        "Link": "https://cloud.funda.nl/valentina_media/175/839/932_360.jpg"
+      },
+      {
+        "PhotoType": 1,
+        "Link": "https://cloud.funda.nl/valentina_media/175/839/934_360.jpg"
+      },
+      {
+        "PhotoType": 1,
+        "Link": "https://cloud.funda.nl/valentina_media/175/839/933_360.jpg"
+      },
+      {
+        "PhotoType": 1,
+        "Link": "https://cloud.funda.nl/valentina_media/175/839/936_360.jpg"
+      },
+      {
+        "PhotoType": 1,
+        "Link": "https://cloud.funda.nl/valentina_media/175/839/937_360.jpg"
+      },
+      {
+        "PhotoType": 1,
+        "Link": "https://cloud.funda.nl/valentina_media/175/839/938_360.jpg"
+      },
+      {
+        "PhotoType": 1,
+        "Link": "https://cloud.funda.nl/valentina_media/175/839/939_360.jpg"
+      },
+      {
+        "PhotoType": 1,
+        "Link": "https://cloud.funda.nl/valentina_media/175/839/941_360.jpg"
+      },
+      {
+        "PhotoType": 1,
+        "Link": "https://cloud.funda.nl/valentina_media/175/839/940_360.jpg"
+      },
+      {
+        "PhotoType": 1,
+        "Link": "https://cloud.funda.nl/valentina_media/175/839/942_360.jpg"
+      },
+      {
+        "PhotoType": 1,
+        "Link": "https://cloud.funda.nl/valentina_media/175/839/948_360.jpg"
+      },
+      {
+        "PhotoType": 1,
+        "Link": "https://cloud.funda.nl/valentina_media/175/839/947_360.jpg"
+      },
+      {
+        "PhotoType": 1,
+        "Link": "https://cloud.funda.nl/valentina_media/175/839/951_360.jpg"
+      },
+      {
+        "PhotoType": 1,
+        "Link": "https://cloud.funda.nl/valentina_media/175/839/950_360.jpg"
+      },
+      {
+        "PhotoType": 1,
+        "Link": "https://cloud.funda.nl/valentina_media/175/839/949_360.jpg"
+      },
+      {
+        "PhotoType": 1,
+        "Link": "https://cloud.funda.nl/valentina_media/175/839/952_360.jpg"
+      },
+      {
+        "PhotoType": 1,
+        "Link": "https://cloud.funda.nl/valentina_media/175/839/953_360.jpg"
+      },
+      {
+        "PhotoType": 1,
+        "Link": "https://cloud.funda.nl/valentina_media/175/839/954_360.jpg"
+      },
+      {
+        "PhotoType": 1,
+        "Link": "https://cloud.funda.nl/valentina_media/175/839/955_360.jpg"
+      },
+      {
+        "PhotoType": 1,
+        "Link": "https://cloud.funda.nl/valentina_media/175/839/956_360.jpg"
+      },
+      {
+        "PhotoType": 1,
+        "Link": "https://cloud.funda.nl/valentina_media/175/839/958_360.jpg"
+      },
+      {
+        "PhotoType": 1,
+        "Link": "https://cloud.funda.nl/valentina_media/175/839/957_360.jpg"
+      },
+      {
+        "PhotoType": 1,
+        "Link": "https://cloud.funda.nl/valentina_media/175/839/959_360.jpg"
+      },
+      {
+        "PhotoType": 1,
+        "Link": "https://cloud.funda.nl/valentina_media/175/839/961_360.jpg"
+      },
+      {
+        "PhotoType": 1,
+        "Link": "https://cloud.funda.nl/valentina_media/175/839/960_360.jpg"
+      }
+    ],
+    "AdModel": {
+      "Site": "funda",
+      "SoortAanbod": "koop",
+      "Link": "https://mobile.funda.io/api/v2/Ad/Koop/globalId/6782811/lok/6001",
+      "NativeAdTemplates": [
+        {
+          "Id": "10157089",
+          "Type": 5
+        },
+        {
+          "Id": "10164289",
+          "Type": 6
+        }
+      ],
+      "BannerAdSizes": [
+        {
+          "Width": 320,
+          "Height": 50
+        },
+        {
+          "Width": 320,
+          "Height": 100
+        }
+      ],
+      "ContentUrl": "https://www.funda.nl/koop/amsterdam/huis-42137274-joop-eijlstraat-14/",
+      "AdUnit": "/7276/funda.koop/fotos/android/leaderboard1_koop_fotos_android_r0"
+    }
+  },
+  {
+    "SectionTitle": "Activiteit",
+    "ObjectInsights": [
+      {
+        "ObjectInsightType": 1,
+        "Label": "2.554x",
+        "SubLabel": "Bekeken"
+      },
+      {
+        "ObjectInsightType": 2,
+        "Label": "87x",
+        "SubLabel": "Bewaard"
+      },
+      {
+        "ObjectInsightType": 3,
+        "Label": "03-06-2023",
+        "SubLabel": "Op funda"
+      }
+    ],
+    "Section": 36,
+    "Order": 16
+  },
+  {
+    "Section": 1,
+    "Order": 5,
+    "List": [
+      {
+        "Line": [
+          {
+            "Text": "Joop Eijlstraat 14",
+            "Css": "font-size: 1.4em;font-weight: semibold;padding: 0px 0px 3px 0px;"
+          }
+        ]
+      },
+      {
+        "Line": [
+          {
+            "Text": "1063 EM Amsterdam",
+            "Css": "font-size: 1em;color: #999999;padding: 0px 0px 11px 0px;"
+          }
+        ]
+      },
+      {
+        "Line": [
+          {
+            "Text": "132 m²  111 m²  4",
+            "Css": "font-size: 1em;padding: 0px 0px 11px 0px;"
+          }
+        ]
+      },
+      {
+        "Line": [
+          {
+            "Text": "€ 550.000",
+            "Css": "font-weight: semibold;"
+          },
+          {
+            "Text": "k.k.",
+            "Css": "padding: 0px 3px 0px 3px;font-weight: semibold;margin: 0px 20px 0px 0px;"
+          }
+        ]
+      }
+    ],
+    "MLI": {
+      "Line": {
+        "Type": 6,
+        "Action": "https://www.ing.nl/particulier/hypotheken/funda/maandlasten/kort.html?cookieconsent=3&vraagprijs=550000&energielabelKlasse=D&mcing=disp_diio_mass_mrt_t_funda-mli-app",
+        "Text": "Wat worden mijn maandlasten?"
+      },
+      "PrivacyConsent": "Deze calculator is van ING. Het privacystatement van deze partij is van toepassing. Funda ontvangt je gegevens niet."
+    }
+  },
+  {
+    "Section": 37,
+    "Order": 17,
+    "CityLabel": "Amsterdam",
+    "NeighbourhoodLabel": "Slotermeer-Noordoost",
+    "CityGeoIdentifier": "amsterdam",
+    "NeighbourhoodGeoIdentifier": "slotermeer-noordoost",
+    "ImageUrl": "https://marketinsightsassets.funda.nl/maps/map_amsterdam_slotermeer-noordoost_64x64_10@2x.jpg"
+  },
+  {
+    "Section": 19,
+    "Order": 27,
+    "Buttons": [
+      {
+        "Type": 11,
+        "Action": "https://mobile.funda.io/api/v2/MijnFunda/SaveObject/Koop/6782811",
+        "Text": "Bewaren"
+      }
+    ]
+  },
+  {
+    "Section": 11,
+    "Order": 4,
+    "List": [
+      {
+        "Type": 7,
+        "Action": "https://mobile.funda.io/api/v2/Aanbod/Detail/6782811/Plattegrond/string",
+        "Text": "Plattegrond"
+      },
+      {
+        "Type": 9,
+        "Action": "https://mobile.funda.io/api/v2/Aanbod/Detail/6782811/Video/string",
+        "Text": "Video"
+      }
+    ]
+  },
+  {
+    "Section": 2,
+    "Order": 12,
+    "Collapsed": true,
+    "Description": "Royale tussenwoning met voor- en achtertuin met achterom aan een groen plein in een kind vriendelijke buurt gelegen met 4 slaapkamers en twee badkamers.\r\n\r\nIndeling\r\nEntreehal met toilet en meterkast. Door zon woonkamer met open keuken en open haard en schuifpui naar de zonnige tuin met achterom en schuur. Op de eerste verdieping twee slaapkamers en een ruime badkamer met bad, douche, wastafel en toilet. De slaapkamer aan de tuinzijde heeft een schuifpui naar aan royaal terras. Op de tweede verdieping twee slaapkamers en een tweede badkamer met douche, wastafel en toilet. De slaapkamer aan de straat zijde heeft een toegangsdeur tot een dak plat waar je nog een balkon zou kunnen maken.\r\n\r\nOmgeving\r\nDe woning is gelegen in de wijk Slotermeer die bekend staat als echte gezinsbuurt. U woont hier op ongeveer 650 meter van station Sloterdijk. Metro, bus en tram vertrekken vanaf de Vlugtlaan. Verder vindt u om de hoek de Brettenzone waar u heerlijk kunt wandelen of hardlopen. De wijk heeft een kindvriendelijk karakter met een speeltuintje in het autoluwe hofje achter en scholen in de nabije omgeving.\r\n\r\nTot slot haalt u de boodschappen gemakkelijk bij Plein 40-45 en het Bos en Lommerplein. Diverse uitvalswegen zijn op korte afstand bereikbaar.\r\n\r\nSpacious house with front and back garden with a back entrance to a green square in a child-friendly neighborhood with 4 bedrooms and two bathrooms.\r\n\r\nLayout\r\nEntrance hall with toilet and meter cupboard. Through the sun living room with open kitchen and fireplace and sliding doors to the sunny garden with back entrance and shed. On the first floor two bedrooms and a spacious bathroom with bath, shower, sink and toilet. The bedroom on the garden side has sliding doors to a spacious terrace. On the second floor two bedrooms and a second bathroom with shower, sink and toilet. The bedroom on the street side has an access door to a flat roof where you could make another balcony.\r\n\r\nEnvironment\r\nThe house is located in the Slotermeer district, which is known as a real family neighbourhood. You live here about 650 meters from Sloterdijk station. Metro, bus and tram depart from Vlugtlaan. You will also find the Brettenzone around the corner where you can enjoy walking or running. The neighborhood has a child-friendly character with a playground in the car-free courtyard behind and schools in the vicinity.\r\n\r\nFinally, you can easily get your groceries at Plein 40-45 and Bos en Lommerplein. Various roads are a short distance away."
+  },
+  {
+    "Section": 3,
+    "Order": 2,
+    "List": [
+      "https://cloud.funda.nl/valentina_media/175/839/945_360.jpg",
+      "https://cloud.funda.nl/valentina_media/175/839/922_360.jpg",
+      "https://cloud.funda.nl/valentina_media/175/839/925_360.jpg",
+      "https://cloud.funda.nl/valentina_media/175/839/923_360.jpg",
+      "https://cloud.funda.nl/valentina_media/175/839/944_360.jpg",
+      "https://cloud.funda.nl/valentina_media/175/839/926_360.jpg",
+      "https://cloud.funda.nl/valentina_media/175/839/928_360.jpg",
+      "https://cloud.funda.nl/valentina_media/175/839/931_360.jpg",
+      "https://cloud.funda.nl/valentina_media/175/839/927_360.jpg",
+      "https://cloud.funda.nl/valentina_media/175/839/924_360.jpg",
+      "https://cloud.funda.nl/valentina_media/175/839/935_360.jpg",
+      "https://cloud.funda.nl/valentina_media/175/839/930_360.jpg",
+      "https://cloud.funda.nl/valentina_media/175/839/929_360.jpg",
+      "https://cloud.funda.nl/valentina_media/175/839/943_360.jpg",
+      "https://cloud.funda.nl/valentina_media/175/839/932_360.jpg",
+      "https://cloud.funda.nl/valentina_media/175/839/934_360.jpg",
+      "https://cloud.funda.nl/valentina_media/175/839/933_360.jpg",
+      "https://cloud.funda.nl/valentina_media/175/839/936_360.jpg",
+      "https://cloud.funda.nl/valentina_media/175/839/937_360.jpg",
+      "https://cloud.funda.nl/valentina_media/175/839/938_360.jpg",
+      "https://cloud.funda.nl/valentina_media/175/839/939_360.jpg",
+      "https://cloud.funda.nl/valentina_media/175/839/941_360.jpg",
+      "https://cloud.funda.nl/valentina_media/175/839/940_360.jpg",
+      "https://cloud.funda.nl/valentina_media/175/839/942_360.jpg",
+      "https://cloud.funda.nl/valentina_media/175/839/948_360.jpg",
+      "https://cloud.funda.nl/valentina_media/175/839/947_360.jpg",
+      "https://cloud.funda.nl/valentina_media/175/839/951_360.jpg",
+      "https://cloud.funda.nl/valentina_media/175/839/950_360.jpg",
+      "https://cloud.funda.nl/valentina_media/175/839/949_360.jpg",
+      "https://cloud.funda.nl/valentina_media/175/839/952_360.jpg",
+      "https://cloud.funda.nl/valentina_media/175/839/953_360.jpg",
+      "https://cloud.funda.nl/valentina_media/175/839/954_360.jpg",
+      "https://cloud.funda.nl/valentina_media/175/839/955_360.jpg",
+      "https://cloud.funda.nl/valentina_media/175/839/956_360.jpg",
+      "https://cloud.funda.nl/valentina_media/175/839/958_360.jpg",
+      "https://cloud.funda.nl/valentina_media/175/839/957_360.jpg",
+      "https://cloud.funda.nl/valentina_media/175/839/959_360.jpg",
+      "https://cloud.funda.nl/valentina_media/175/839/961_360.jpg",
+      "https://cloud.funda.nl/valentina_media/175/839/960_360.jpg"
+    ]
+  },
+  {
+    "Section": 6,
+    "Order": 20,
+    "Latitude": 52.383503,
+    "Longitude": 4.829079
+  }
+]
